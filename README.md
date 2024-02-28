@@ -1,7 +1,31 @@
 Traversal Web-Site Projesi ile Asp.Net Core da ki bilgilerimi pekiştiriyorum.
 
-Projede Identity Kütüphanesi kullanıyor
+Projenin Genel Genel Amacı:
 
+Asp.Net Core yapısını
+Partial View, View Componenti
+Web Api Apilerin ne işe yaradığını
+Identit kütüphanesinin ne işe yaradığını ve nasıl kullanıldığını
+Web token ile güvenliği sağlamayı öğrenmektir
+Kullandığım Teknolojiler:
+
+💻ASP.NET Core MVC - 8.0
+
+💻Entity Framework
+
+💻Microsoft SQL Server
+
+💻HTML, CSS, JavaScript
+
+💻N-Tier Architecture
+
+💻Repository Design Pattern
+
+💻Swannger Api
+
+💻Identity Kütüphanesi
+
+💻Web token
 
 **Projeye Ait Görseller:** 
 *Kayıt Olma Ekranı
