@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraversalWebSite", "TraversalWebSite\TraversalWebSite.csproj", "{723DE9E2-C381-4124-A15E-94171F6092A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{3D1BC2D6-FF69-4B32-BC47-9BCB15128A72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{723DE9E2-C381-4124-A15E-94171F6092A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723DE9E2-C381-4124-A15E-94171F6092A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723DE9E2-C381-4124-A15E-94171F6092A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723DE9E2-C381-4124-A15E-94171F6092A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1BC2D6-FF69-4B32-BC47-9BCB15128A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1BC2D6-FF69-4B32-BC47-9BCB15128A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1BC2D6-FF69-4B32-BC47-9BCB15128A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1BC2D6-FF69-4B32-BC47-9BCB15128A72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BEDA2E9-70FA-489B-95E3-E1BD1EB3E10B}
+	EndGlobalSection
+EndGlobal
