@@ -1,12 +1,21 @@
-Traversal Web-Site Projesi ile Asp.Net Core da ki bilgilerimi pekiştiriyorum.
+Bu repository **Asp.Net Core**  ki bilgilerimi pekiştirnek için oluşturulmuştur.
+
 
 Projenin Genel Genel Amacı:
 
-Asp.Net Core yapısını
-Partial View, View Componenti
-Web Api Apilerin ne işe yaradığını
-Identit kütüphanesinin ne işe yaradığını ve nasıl kullanıldığını
-Web token ile güvenliği sağlamayı öğrenmektir
+<ol>
+  <li>Asp.Net Core yapısını</li>
+    <li>Partial View, View Componenti</li>
+    <li>Web Api Apilerin ne işe yaradığını</li>
+    <li>
+Identit kütüphanesinin ne işe yaradığını ve nasıl kullanıldığını</li>
+    <li>Web token ile güvenliği sağlamayı öğrenmektir</li>
+
+</ol>
+
+
+
+
 Kullandığım Teknolojiler:
 
 💻ASP.NET Core MVC - 8.0
