@@ -1,0 +1,28 @@
+﻿@model Comment
+<div class="leave-comment-form mt-5" id="reply">
+	<h4 class="side-title mb-2">Bir yorum bırakıb</h4>
+	<p class="mb-4">
+		Işaretli alanları doldurmanız gerekmektedir *
+	</p>
+	<form method="post" action="/Comment/AddComment/@Model">
+		
+		@Html.HiddenFor(x=>x.DestinationID)
+		<div class="form-group">
+			<textarea  class="form-control" placeholder="Yorumunuz*" asp-for="@Model.Description" required  spellcheck="false"></textarea>
+		</div>
+		<div class="input-grids row">
+
+			<div class="form-group col-lg-6">
+				<input type="text" asp-for="@Model.CommentUser" class="form-control" placeholder="Adınız*"
+					   required >
+			</div>
+			<div class="form-group col-lg-6">
+				<input   value="@Model.DestinationID" class="form-control" placeholder="Email*" disabled  >
+			</div>
+		</div>
+
+		<div class="submit text-right">
+			<button class="btn btn-style btn-primary">Yorumu Yap </button>
+		</div>
+	</form>
+</div>

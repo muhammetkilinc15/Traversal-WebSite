@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversalweb\\traversalweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversalweb\\traversalweb\\views\\login\\singin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\views\\login\\singin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversalweb\\traversalweb\\models\\singupuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\models\\singupuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SingIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\TraversalWeb\\Views\\Login\\SingIn.cshtml",
+              "RelativeDocumentMoniker": "TraversalWeb\\Views\\Login\\SingIn.cshtml",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\TraversalWeb\\Views\\Login\\SingIn.cshtml",
+              "RelativeToolTip": "TraversalWeb\\Views\\Login\\SingIn.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T18:18:26.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SingUpUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\TraversalWeb\\Models\\SingUpUserViewModel.cs",
+              "RelativeDocumentMoniker": "TraversalWeb\\Models\\SingUpUserViewModel.cs",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\TraversalWeb\\Models\\SingUpUserViewModel.cs",
+              "RelativeToolTip": "TraversalWeb\\Models\\SingUpUserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T17:34:42.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\TraversalWeb\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "TraversalWeb\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\TraversalWeb\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "TraversalWeb\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T17:33:43.963Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+﻿@model List<Destination>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+@await Component.InvokeAsync("_SliderPartial")
+  <!-- /main-slider -->
+  <!-- //banner-slider-->
+  <!--/grids-->
+@await Component.InvokeAsync("_PopularDestinationsPartial")
+  <!--//grids-->
+  <!-- stats -->
+@await Component.InvokeAsync("_StatisticPartial")
+
+  <!-- //stats -->
+  <!--/-->
+@await Component.InvokeAsync("_FeaturePartial")
+  <!-- //stats -->
+  <!--/w3l-bottom-->
+@await Component.InvokeAsync("_SubAboutPartial")
+  <!--//w3l-bottom-->
+  <!-- testimonials -->
+@await Component.InvokeAsync("_TestimonialPartial")
+  <!-- //testimonials -->
