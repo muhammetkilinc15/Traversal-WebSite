@@ -1,0 +1,40 @@
+﻿@model UserEditViewModel
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Areas/Member/Views/Shared/_MemberLayout.cshtml";
+}
+
+<h3>Profil Düzenleme Sayfası</h3>
+<form method="post" enctype="multipart/form-data">
+	<div class="form-group">
+		@Html.Label("Adınız")
+		@Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+	</div>
+	<div class="form-group">
+		@Html.Label("Soyadınız")
+		@Html.TextBoxFor(x => x.Surname, new { @class = "form-control" })
+	</div>
+	<div class="form-group">
+		@Html.Label("Şifreniz")
+		@Html.PasswordFor(x => x.Password, new { @class = "form-control" })
+	</div>
+	<div class="form-group">
+		@Html.Label("Tekrar Şifreniz")
+		@Html.PasswordFor(x => x.ConfirmPassword, new { @class = "form-control" })
+	</div>
+	<div class="form-group">
+		@Html.Label("Mail Adresi")
+		@Html.TextBoxFor(x => x.Mail, new { @class = "form-control" })
+	</div>
+	<div class="form-group">
+		@Html.Label("Telefon Numarası")
+		@Html.TextBoxFor(x => x.PhoneNumber, new { @class = "form-control" })
+	</div>
+	<div class="form-group">
+		@Html.Label("Resim yükleyin")
+		<input type="file" placeholder="Resim Seçiniz" asp-for="Image" class="form-control" />
+	</div>
+	<div class="row">
+		<button class="btn btn-primary">Kaydet</button>
+	</div>
+</form>
