@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\EntityLayer\\EntityLayer.csproj": {}
+    "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\EntityLayer\\EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\mami\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

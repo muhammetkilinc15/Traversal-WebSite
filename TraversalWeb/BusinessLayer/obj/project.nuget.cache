@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6pcWtKhdXZjvC6TU93Mr8QowEhWMa0VGUtCrD3Xo/i12K01QGCIc3Wajkj6v/JZrk5p3bYzfEC8TPpJQX+amXw==",
+  "dgSpecHash": "M0EvixX+n90denVtudzvNrMuh0B6OKtJOWW+dSpPTP0k0SGQgbOPaHIw6dmrrwZUsWoyoW6QAHQvQYvR9n2s2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mami\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\mami\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

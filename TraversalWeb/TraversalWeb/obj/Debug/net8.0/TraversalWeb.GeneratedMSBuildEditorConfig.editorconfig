@@ -17,167 +17,167 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TraversalWeb
 build_property.RootNamespace = TraversalWeb
-build_property.ProjectDir = C:\Users\mami\Documents\GitHub\TraversalWeb\TraversalWeb\
+build_property.ProjectDir = C:\Users\mami\Documents\GitHub\Traversal-WebSite\TraversalWeb\TraversalWeb\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mami\Documents\GitHub\TraversalWeb\TraversalWeb
+build_property.MSBuildProjectDirectory = C:\Users\mami\Documents\GitHub\Traversal-WebSite\TraversalWeb\TraversalWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Areas/Member/Views/Comment/Index.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Member/Views/Comment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXENvbW1lbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Areas/Member/Views/Destination/Index.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Member/Views/Destination/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXERlc3RpbmF0aW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Areas/Member/Views/Profile/Index.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Member/Views/Profile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXFByb2ZpbGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Areas/Member/Views/Shared/_MemberLayout.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Member/Views/Shared/_MemberLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXFNoYXJlZFxfTWVtYmVyTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Areas/Member/Views/_LayoutPartial/_FooterPartial.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Member/Views/_LayoutPartial/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXF9MYXlvdXRQYXJ0aWFsXF9Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Areas/Member/Views/_LayoutPartial/_HeaderPartial.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Member/Views/_LayoutPartial/_HeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXF9MYXlvdXRQYXJ0aWFsXF9IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Areas/Member/Views/_LayoutPartial/_Navbar2Partial.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Member/Views/_LayoutPartial/_Navbar2Partial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXF9MYXlvdXRQYXJ0aWFsXF9OYXZiYXIyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Areas/Member/Views/_LayoutPartial/_NavbarPartial1.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Member/Views/_LayoutPartial/_NavbarPartial1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXF9MYXlvdXRQYXJ0aWFsXF9OYXZiYXJQYXJ0aWFsMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Areas/Member/Views/_LayoutPartial/_RightBarPartial.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Member/Views/_LayoutPartial/_RightBarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXF9MYXlvdXRQYXJ0aWFsXF9SaWdodEJhclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Areas/Member/Views/_LayoutPartial/_ScriptsPartial.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Member/Views/_LayoutPartial/_ScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXF9MYXlvdXRQYXJ0aWFsXF9TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Areas/Member/Views/_ViewImports.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Member/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Areas/Member/Views/_ViewStart.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Member/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWVtYmVyXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Comment/AddComment.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Comment/AddComment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxBZGRDb21tZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Comment/Index.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Comment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Default/Index.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Default/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Destination/DestinationDetails.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Destination/DestinationDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25cRGVzdGluYXRpb25EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Destination/Index.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Destination/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Home/Index.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Home/Privacy.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Login/SingIn.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Login/SingIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2luZ0luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Login/SingUp.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Login/SingUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2luZ1VwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Shared/Components/_CommentListPartial/Default.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Shared/Components/_CommentListPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NvbW1lbnRMaXN0UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Shared/Components/_CommentListPartial/View.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Shared/Components/_CommentListPartial/View.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NvbW1lbnRMaXN0UGFydGlhbFxWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Shared/Components/_FeaturePartial/Default.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Shared/Components/_FeaturePartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0ZlYXR1cmVQYXJ0aWFsXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Shared/Components/_PopularDestinationsPartial/Default.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Shared/Components/_PopularDestinationsPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1BvcHVsYXJEZXN0aW5hdGlvbnNQYXJ0aWFsXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Shared/Components/_SliderPartial/Default.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Shared/Components/_SliderPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NsaWRlclBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Shared/Components/_StatisticPartial/Default.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Shared/Components/_StatisticPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1N0YXRpc3RpY1BhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Shared/Components/_SubAboutPartial/Default.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Shared/Components/_SubAboutPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1N1YkFib3V0UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Shared/Components/_TestimonialPartial/Default.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Shared/Components/_TestimonialPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Rlc3RpbW9uaWFsUGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Shared/Error.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Shared/_UILayout.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Shared/_UILayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9VSUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/_LayoutPartial/_FooterPartial.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/_LayoutPartial/_FooterPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX0xheW91dFBhcnRpYWxcX0Zvb3RlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/_LayoutPartial/_HeaderPartial.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/_LayoutPartial/_HeaderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX0xheW91dFBhcnRpYWxcX0hlYWRlclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/_LayoutPartial/_NavbarPartial.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/_LayoutPartial/_NavbarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX0xheW91dFBhcnRpYWxcX05hdmJhclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/_LayoutPartial/_ScriptsPartial.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/_LayoutPartial/_ScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX0xheW91dFBhcnRpYWxcX1NjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/_ViewImports.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/_ViewStart.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mami/Documents/GitHub/TraversalWeb/TraversalWeb/Views/Shared/_Layout.cshtml]
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2zex0f2t4t

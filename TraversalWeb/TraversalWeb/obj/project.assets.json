@@ -8969,11 +8969,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\TraversalWeb\\TraversalWeb.csproj",
+      "projectUniqueName": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\TraversalWeb.csproj",
       "projectName": "TraversalWeb",
-      "projectPath": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\TraversalWeb\\TraversalWeb.csproj",
+      "projectPath": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\TraversalWeb.csproj",
       "packagesPath": "C:\\Users\\mami\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\TraversalWeb\\obj\\",
+      "outputPath": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8994,14 +8994,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\DataAccessLayer\\DataAccessLayer.csproj"
+            "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\DataAccessLayer\\DataAccessLayer.csproj"
             },
-            "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\mami\\Documents\\GitHub\\TraversalWeb\\EntityLayer\\EntityLayer.csproj"
+            "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }
