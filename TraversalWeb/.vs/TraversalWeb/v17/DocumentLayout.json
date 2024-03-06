@@ -7,20 +7,8 @@
       "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\views\\shared\\components\\_cardsstatistic\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\views\\shared\\components\\_cardsstatistic\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\viewcomponents\\admindashboard\\_cardsstatistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\viewcomponents\\admindashboard\\_cardsstatistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\areas\\admin\\views\\_layoutpartial\\_scriptpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\views\\_layoutpartial\\_scriptpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\views\\shared\\components\\_adminguidelist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\views\\shared\\components\\_adminguidelist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,13 +28,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Views\\Shared\\Components\\_CardsStatistic\\Default.cshtml",
-              "RelativeDocumentMoniker": "TraversalWeb\\Views\\Shared\\Components\\_CardsStatistic\\Default.cshtml",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Views\\Shared\\Components\\_CardsStatistic\\Default.cshtml",
-              "RelativeToolTip": "TraversalWeb\\Views\\Shared\\Components\\_CardsStatistic\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABgAAAA",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Views\\Shared\\Components\\_AdminGuideList\\Default.cshtml",
+              "RelativeDocumentMoniker": "TraversalWeb\\Views\\Shared\\Components\\_AdminGuideList\\Default.cshtml",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Views\\Shared\\Components\\_AdminGuideList\\Default.cshtml",
+              "RelativeToolTip": "TraversalWeb\\Views\\Shared\\Components\\_AdminGuideList\\Default.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGMAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-06T09:50:35.443Z",
+              "WhenOpened": "2024-03-06T15:48:49.393Z",
               "EditorCaption": ""
             },
             {
@@ -57,48 +45,9 @@
               "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-06T09:49:17.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_CardsStatistic.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\ViewComponents\\AdminDashboard\\_CardsStatistic.cs",
-              "RelativeDocumentMoniker": "TraversalWeb\\ViewComponents\\AdminDashboard\\_CardsStatistic.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\ViewComponents\\AdminDashboard\\_CardsStatistic.cs",
-              "RelativeToolTip": "TraversalWeb\\ViewComponents\\AdminDashboard\\_CardsStatistic.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T09:39:42.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ScriptPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\_LayoutPartial\\_ScriptPartial.cshtml",
-              "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Views\\_LayoutPartial\\_ScriptPartial.cshtml",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\_LayoutPartial\\_ScriptPartial.cshtml",
-              "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Views\\_LayoutPartial\\_ScriptPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-06T09:35:08.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T19:39:11.49Z",
+              "WhenOpened": "2024-03-06T15:37:36.437Z",
               "EditorCaption": ""
             }
           ]
