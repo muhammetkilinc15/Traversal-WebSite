@@ -1,4 +1,8 @@
+using BusinessLayer.Abstract;
+using BusinessLayer.Concreate;
+using DataAccessLayer.Abstract;
 using DataAccessLayer.Concreate;
+using DataAccessLayer.EntityFramework;
 using EntityLayer.Concreate;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
@@ -23,6 +27,12 @@ builder.Services.AddMvc(config =>
 	config.Filters.Add(new AuthorizeFilter());
 });
 
+// Dependcy Inejction için kullandýk <<<----
+builder.Services.AddScoped<Context>();
+builder.Services.AddScoped<IDestinationDal, EfDestinationDal>();
+builder.Services.AddScoped<IDestinationService, DestinationManager>();
+builder.Services.AddScoped<IReservationDal, EfReservationDal>();
+builder.Services.AddScoped<IReservationService, ReservationManager>();
 builder.Services.AddMvc();
 
 // Buraya kadar <=======
@@ -48,6 +58,12 @@ app.UseAuthorization();
 app.MapControllerRoute(
 	name: "default",
 	pattern: "{controller=Login}/{action=SingIn}/{id?}");
+
+app.MapControllerRoute(
+	  name: "areas",
+	  pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+	);
+
 
 app.MapControllerRoute(
 	  name: "areas",

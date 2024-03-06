@@ -13,5 +13,9 @@ namespace EntityLayer.Concreate
         public string Surname { get; set; }
         public string? ImageUrl { get; set; }
         public string? Gender { get; set; }
+
+        // İlişki
+
+        public List<Reservation> Reservations { get; set; }
     }
 }

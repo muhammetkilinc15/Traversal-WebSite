@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Abstract;
+using DataAccessLayer.Abstract;
 using EntityLayer.Concreate;
 using System;
 using System.Collections.Generic;
@@ -8,31 +9,38 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concreate
 {
-    internal class GuideManager : IGuideService
+    public class GuideManager : IGuideService
     {
+        private readonly IGuideDal guideDal;
+
+        public GuideManager(IGuideDal guideDal)
+        {
+            this.guideDal = guideDal;
+        }
+
         public void TAdd(Guide entity)
         {
-            throw new NotImplementedException();
+            guideDal.Add(entity);
         }
 
         public Guide TGetByID(int id)
         {
-            throw new NotImplementedException();
+            return guideDal.GetByID(id);
         }
 
         public List<Guide> TGetList()
         {
-            throw new NotImplementedException();
+            return guideDal.GetAll();
         }
 
         public void TRemove(Guide entity)
         {
-            throw new NotImplementedException();
+            guideDal.Delete(entity);
         }
 
         public void TUpdate(Guide entity)
         {
-            throw new NotImplementedException();
+            guideDal.Update(entity);
         }
     }
 }

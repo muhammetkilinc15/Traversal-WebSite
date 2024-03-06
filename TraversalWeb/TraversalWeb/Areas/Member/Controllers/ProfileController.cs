@@ -62,5 +62,7 @@ namespace TraversalWeb.Areas.Member.Controllers
             return View();
         }
 
+        
+
     }
 }

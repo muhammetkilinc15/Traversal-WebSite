@@ -1,0 +1,74 @@
+﻿ @model Destination
+@{
+    ViewData["Title"] = "UpdateDestination";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Yeni Rota Oluşturma Sayfası</h3>
+
+
+
+<div class="row">
+	<div class="col-xl">
+		<div class="card mb-4">
+			<div class="card-header d-flex justify-content-between align-items-center">
+				<h5 class="mb-0">Basic Layout</h5>
+				<small class="text-muted float-end">Default label</small>
+			</div>
+			<div class="card-body">
+				<form method="post" enctype="multipart/form-data">
+					@Html.HiddenFor(x=>x.DestinationID)
+
+					<div class="mb-3">
+						<label class="form-label" for="basic-default-fullname">Şehir</label>
+						<input type="text" asp-for="@Model.City" value="@Model.City" class="form-control" id="basic-default-fullname" placeholder="Şehir giriniz" />
+					</div>
+
+					<div class="mb-3">
+						<label class="form-label" for="basic-default-company">Gün Gece</label>
+						<input type="text" asp-for="@Model.DayNight" value="@Model.DayNight" class="form-control" id="basic-default-company" placeholder="Gün Gece" />
+					</div>
+
+					<div class="mb-3">
+						<label class="form-label" for="basic-default-company">Açıklama</label>
+						<input type="text" asp-for="@Model.Description" value="@Model.Description" class="form-control" id="basic-default-company" placeholder="Açıklama" />
+					</div>
+
+					<div class="mb-3">
+						<label class="form-label" for="basic-default-company">Ana Görsel</label>
+						<input type="file" asp-for="@Model.Image" value="@Model.Image" class="form-control" id="basic-default-company" placeholder="Ana Görsel" />
+					</div>
+
+					<div class="mb-3">
+						<label class="form-label" for="basic-default-company">Kapasite</label>
+						<input type="text" asp-for="@Model.Capacity" value="@Model.Capacity" class="form-control" id="basic-default-company" placeholder="Kapasite" />
+					</div>
+
+					<div class="mb-3">
+						<label class="form-label" for="basic-default-company">Kapak Görsel</label>
+						<input type="file" asp-for="@Model.CoverImage" value="@Model.CoverImage" class="form-control" id="basic-default-company" placeholder="Kapak Görsel" />
+					</div>
+					<div class="mb-3">
+						<label class="form-label" for="basic-default-company">Görsel 2</label>
+						<input type="file" asp-for="@Model.Image2" value="@Model.Image2" class="form-control" id="basic-default-company" placeholder="Görsel 2" />
+					</div>
+					<div class="mb-3">
+						<label class="form-label" for="basic-default-company">Fiyat</label>
+						<input type="text" asp-for="@Model.Price" value="@Model.Price" class="form-control" id="basic-default-company" placeholder="Fiyat" />
+					</div>
+					<div class="mb-3">
+						<label class="form-label" for="basic-default-company">Detay1</label>
+						<textarea rows="5" cols="5" asp-for="@Model.Details1" value="@Model.Details1" class="form-control" id="basic-default-company" placeholder="Detay1"> </textarea>
+					</div>
+
+					<div class="mb-3">
+						<label class="form-label" for="basic-default-company">Detay2</label>
+						<textarea rows="5" cols="5" asp-for="@Model.Details2" value="@Model.Details2" class="form-control" id="basic-default-company" placeholder="Detay2"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Güncelle</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
