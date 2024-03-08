@@ -38,7 +38,12 @@ namespace BusinessLayer.Concreate
 			return _commentDal.GetListByFilter(x=>x.DestinationID==id);
         }
 
-        public void TRemove(Comment entity)
+		public List<Comment> TGetListWithByDestination()
+		{
+			return _commentDal.TGetListWİthDestination();
+		}
+
+		public void TRemove(Comment entity)
 		{
 			_commentDal.Delete(entity);
 		}

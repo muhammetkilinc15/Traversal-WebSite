@@ -1,0 +1,52 @@
+﻿@model List<Comment>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<h1>Yorumlar</h1>
+
+<div class="table-responsive text-nowrap">
+	<table class="table table-hover">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Kullanıcı</th>
+				<th>Rota</th>
+				<th>Tarih</th>
+				<th>Sil</th>
+			</tr>
+		</thead>
+		<tbody class="table-border-bottom-0">
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td>@item.CommentID</td>
+					<td>@item.CommentUser</td>
+					<td>@item.Destination.City</td>
+					<td>@item.CommentDate.ToShortDateString()</td>
+					<td>
+						<div class="dropdown">
+							<button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+								<i class="bx bx-dots-vertical-rounded"></i>
+							</button>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="/Admin/Comment/DeleteComment/@item.DestinationID"><i class="bx bx-edit-alt me-1"></i>Sil</a>
+					
+							</div>
+						</div>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>
+<div class="row">
+	<div class="col-md-12 col-lg-12">
+		<a href="/Admin/Destination/AddDestination" class="btn btn-outline-primary">Yeni Rota Ekle</a>
+	</div>
+</div>
+
+
+

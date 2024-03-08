@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\areas\\admin\\views\\guide\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\views\\guide\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\views\\shared\\components\\_adminguidelist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\views\\shared\\components\\_adminguidelist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\areas\\admin\\views\\guide\\addguide.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\views\\guide\\addguide.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\areas\\admin\\controllers\\guidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\controllers\\guidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Views\\Shared\\Components\\_AdminGuideList\\Default.cshtml",
-              "RelativeDocumentMoniker": "TraversalWeb\\Views\\Shared\\Components\\_AdminGuideList\\Default.cshtml",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Views\\Shared\\Components\\_AdminGuideList\\Default.cshtml",
-              "RelativeToolTip": "TraversalWeb\\Views\\Shared\\Components\\_AdminGuideList\\Default.cshtml",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGMAAAAvAAAA",
+              "Title": "AddGuide.cshtml",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\Guide\\AddGuide.cshtml",
+              "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Views\\Guide\\AddGuide.cshtml",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\Guide\\AddGuide.cshtml",
+              "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Views\\Guide\\AddGuide.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-06T15:48:49.393Z",
+              "WhenOpened": "2024-03-08T13:00:32.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\Guide\\Index.cshtml",
+              "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Views\\Guide\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\Guide\\Index.cshtml",
+              "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Views\\Guide\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-06T15:37:36.437Z",
+              "WhenOpened": "2024-03-08T12:37:39.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GuideController.cs",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Controllers\\GuideController.cs",
+              "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Controllers\\GuideController.cs",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Controllers\\GuideController.cs",
+              "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Controllers\\GuideController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwB0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T12:36:35.733Z",
               "EditorCaption": ""
             }
           ]

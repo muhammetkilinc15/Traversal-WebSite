@@ -19,7 +19,7 @@ namespace DataAccessLayer.EntityFramework
         {
             using (var c = new Context())
             {
-                return c.Reservations.Include(x => x.Status).Include(x=>x.Destination).Where(x => x.ReservationStatusID == statusId && x.AppUserID==userId).ToList();
+                return c.Reservations.Include(x => x.Status).Include(x=>x.Destination).Include(x=>x.AppUser).Where(x => x.ReservationStatusID == statusId && x.AppUserID==userId).ToList();
             }
         }
     }

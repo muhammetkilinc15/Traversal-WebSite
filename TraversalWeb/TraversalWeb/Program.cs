@@ -1,9 +1,11 @@
 using BusinessLayer.Abstract;
 using BusinessLayer.Concreate;
+using BusinessLayer.Container;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.Concreate;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concreate;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using TraversalWeb.Models;
@@ -15,8 +17,9 @@ builder.Services.AddDbContext<Context>();                                       
 builder.Services.AddIdentity<AppUser, AppRole>()
 	.AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>();
 // buraya kadar kýsým
-builder.Services.AddControllersWithViews();
 
+
+builder.Services.AddControllersWithViews();
 
 // ====>  Authorization için gerekli kýsým
 builder.Services.AddMvc(config =>
@@ -27,12 +30,11 @@ builder.Services.AddMvc(config =>
 	config.Filters.Add(new AuthorizeFilter());
 });
 
-// Dependcy Inejction için kullandýk <<<----
-builder.Services.AddScoped<Context>();
-builder.Services.AddScoped<IDestinationDal, EfDestinationDal>();
-builder.Services.AddScoped<IDestinationService, DestinationManager>();
-builder.Services.AddScoped<IReservationDal, EfReservationDal>();
-builder.Services.AddScoped<IReservationService, ReservationManager>();
+
+//---->>> Dependency Injection için 
+Extensions.ContainerDependencies(builder.Services);
+// <<<<<<------------------------
+
 builder.Services.AddMvc();
 
 // Buraya kadar <=======
@@ -46,6 +48,9 @@ if (!app.Environment.IsDevelopment())
 	// The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
 	app.UseHsts();
 }
+
+// Hata alýndýðý zaman istediðimiz sayfalara yönlendireðiz
+app.UseStatusCodePagesWithReExecute("/ErrorPage/Error404/","?code{0}");
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

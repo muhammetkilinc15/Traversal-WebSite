@@ -1,0 +1,34 @@
+﻿@model List<Reservation>
+@{
+	ViewData["Title"] = "ReservationUser";
+	Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+	int count = 1;
+}
+
+<h1>Kullanıcının Geçmiş Rezervasyonları</h1>
+
+<div class="table-responsive text-wrap">
+	<table class="table table-hover">
+		<tr>
+			<th>#</th>
+			<th>Misafir Adı Soyadı</th>
+			<th>Rota</th>
+			<th>Kişi Sayısı</th>
+			<th>Tarih</th>
+			<th>Detaylar</th>
+		</tr>
+
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@count</td>
+				<td>@item.AppUser.Name @item.AppUser.Surname</td>
+				<td>@item.Destination.City</td>
+				<td>@item.PersonCount</td>
+				<td>@item.ReservationDate.ToString("dd-MMM-yyyy")</td>
+				<td><a href="#" class="btn btn-outline-primary">Detaylar</a></td>
+			</tr>
+			{ count++; }
+		}
+	</table>
+</div>

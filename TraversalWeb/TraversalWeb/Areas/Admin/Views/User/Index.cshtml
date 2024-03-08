@@ -1,0 +1,53 @@
+﻿@model List<AppUser>
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+	int count = 1;
+}
+
+
+
+<h1>Kullanıcı Listesi</h1>
+
+<div class="table-hover text-nowrap">
+	<table class="table table-hover">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Adı Soyadı</th>
+				<th>Kullanıcı adı</th>
+				<th>Mail</th>	
+				<th>Sil</th>
+				<th>Düzenle</th>
+				<th>Yorumlar</th>
+				<th>Tur Geçmişi</th>
+			</tr>
+		</thead>
+		<tbody class="table-border-bottom-0">
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td>@count</td>
+					<td>@item.Name @item.Surname</td>
+					<td>@item.UserName</td>
+					<td>@item.Email</td>
+
+					<td> <a class="btn btn-outline-danger" href="/Admin/User/DeleteUser/@item.Id"><i class="bx bx-sad-alt me-1"></i>Sil</a>  </td>
+					<td> <a class="btn btn-outline-primary" href="/Admin/User/UpdateUser/@item.Id"><i class="bx bx-edit-alt me-1"></i>Düzenle</a>  </td>
+					<td> <a class="btn btn-outline-info" href="/Admin/User/CommentUser/@item.Id"><i class="bx bx-detail-alt me-1"></i>Yorumlar</a>  </td>
+					<td> <a class="btn btn-outline-primary" href="/Admin/User/ReservationUser/@item.Id"><i class="bx bx-detail-alt me-1"></i>Tur Geçmişi</a>  </td>
+				</tr>
+				{ count++; }
+			}
+		</tbody>
+	</table>
+</div>
+
+<div class="row">
+	<div class="col-md-12 col-lg-12">
+		<a href="/Login/SingUp" class="btn btn-outline-primary">Yeni Kullancı Ekle</a>
+	</div>
+</div>
+
+
+

@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\mami\Documents\GitHub\Traversal-WebSite\TraversalWeb\TraversalWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Admin/Views/Comment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29tbWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Admin/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,8 +46,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGVzdGluYXRpb25cVXBkYXRlRGVzdGluYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Admin/Views/Guide/AddGuide.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3VpZGVcQWRkR3VpZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Admin/Views/Guide/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR3VpZGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Admin/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Admin/Views/User/ReservationUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxSZXNlcnZhdGlvblVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Areas/Admin/Views/_LayoutPartial/layout-menu.cshtml]
@@ -156,6 +176,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Destination/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/ErrorPage/Error404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JQYWdlXEVycm9yNDA0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mami/Documents/GitHub/Traversal-WebSite/TraversalWeb/TraversalWeb/Views/Home/Index.cshtml]
