@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TraversalWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb67db1a28c693295c8585347fb72a4637d03957")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c4e7cfe381e9ae32a85ef300f022e97578301a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("TraversalWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TraversalWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

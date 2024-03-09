@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\areas\\admin\\views\\guide\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\views\\guide\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\areas\\admin\\views\\pdfreport\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\views\\pdfreport\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\areas\\admin\\controllers\\pdfreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\controllers\\pdfreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\areas\\admin\\views\\guide\\addguide.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\views\\guide\\addguide.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5DCF3ABD-2CB4-456E-8658-CAE06878DFF6}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\businesslayer\\validationrules\\guidevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DCF3ABD-2CB4-456E-8658-CAE06878DFF6}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\validationrules\\guidevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\areas\\admin\\controllers\\guidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\controllers\\guidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\areas\\admin\\views\\excel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\views\\excel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,41 +43,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AddGuide.cshtml",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\Guide\\AddGuide.cshtml",
-              "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Views\\Guide\\AddGuide.cshtml",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\Guide\\AddGuide.cshtml",
-              "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Views\\Guide\\AddGuide.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-08T13:00:32.734Z",
+              "Title": "PdfReportController.cs",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Controllers\\PdfReportController.cs",
+              "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Controllers\\PdfReportController.cs",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Controllers\\PdfReportController.cs",
+              "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Controllers\\PdfReportController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwDoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T15:14:13.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\Guide\\Index.cshtml",
-              "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Views\\Guide\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\Guide\\Index.cshtml",
-              "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Views\\Guide\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAUAAAA",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\PdfReport\\Index.cshtml",
+              "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Views\\PdfReport\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\PdfReport\\Index.cshtml",
+              "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Views\\PdfReport\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-08T12:37:39.549Z",
+              "WhenOpened": "2024-03-09T15:26:56.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AddGuide.cshtml",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\Guide\\AddGuide.cshtml",
+              "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Views\\Guide\\AddGuide.cshtml",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\Guide\\AddGuide.cshtml",
+              "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Views\\Guide\\AddGuide.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-09T15:08:53.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GuideController.cs",
               "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Controllers\\GuideController.cs",
               "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Controllers\\GuideController.cs",
               "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Controllers\\GuideController.cs",
               "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Controllers\\GuideController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAwwB0AAAAfAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAYwCAAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T12:36:35.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-09T15:06:55.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GuideValidator.cs",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\BusinessLayer\\ValidationRules\\GuideValidator.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\ValidationRules\\GuideValidator.cs",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\BusinessLayer\\ValidationRules\\GuideValidator.cs",
+              "RelativeToolTip": "BusinessLayer\\ValidationRules\\GuideValidator.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T15:03:56.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\Excel\\Index.cshtml",
+              "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Views\\Excel\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\Excel\\Index.cshtml",
+              "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Views\\Excel\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-09T14:59:38.076Z"
             }
           ]
         }

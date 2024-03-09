@@ -1,9 +1,11 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using TraversalWeb.Models;
 
 namespace TraversalWeb.Controllers
 {
+    [AllowAnonymous]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -15,11 +17,20 @@ namespace TraversalWeb.Controllers
 
         public IActionResult Index()
         {
+            DateTime d = Convert.ToDateTime(DateTime.Now.ToLongDateString());
+            _logger.LogInformation(d+"Index Sayfasý Çaðrýldý");
+            _logger.LogError("Error log Çaðýrýldý");
             return View();
         }
 
         public IActionResult Privacy()
         {
+            _logger.LogInformation($"Privacy sayfasý çaðýrýldý");
+            return View();
+        }
+        public IActionResult Test()
+        {
+            _logger.LogInformation("Test sayfasý çaðýrýldý");
             return View();
         }
 

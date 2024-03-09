@@ -433,6 +433,14 @@
       "PackagePath": "staticwebassets\\MemberImages\\528bb647-4623-456f-b687-112304bfe282.jpg"
     },
     {
+      "Id": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\wwwroot\\PdfReport\\dosya1.pdf",
+      "PackagePath": "staticwebassets\\PdfReport\\dosya1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\wwwroot\\PdfReport\\dosya2.pdf",
+      "PackagePath": "staticwebassets\\PdfReport\\dosya2.pdf"
+    },
+    {
       "Id": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\wwwroot\\Traversal-Liberty\\about.html",
       "PackagePath": "staticwebassets\\Traversal-Liberty\\about.html"
     },
