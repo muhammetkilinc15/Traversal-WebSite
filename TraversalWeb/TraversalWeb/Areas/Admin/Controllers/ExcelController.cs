@@ -10,38 +10,25 @@ namespace TraversalWeb.Areas.Admin.Controllers
     [Area("Admin")]
     public class ExcelController : Controller
     {
-        IDestinationService destinationService;
+        private readonly IDestinationService destinationService;
+        private readonly IExcelService excelService;
 
-        public ExcelController(IDestinationService destinationService)
+        public ExcelController(IDestinationService destinationService, IExcelService excelService)
         {
             this.destinationService = destinationService;
+            this.excelService = excelService;
         }
+
         public ActionResult Index()
         {
             return View();
         }
 
-        //public IActionResult Index()
-        //{
-        //    ExcelPackage excel = new ExcelPackage();
-        //    var worksheet = excel.Workbook.Worksheets.Add("Sayfa1");
-        //    worksheet.Cells[1, 1].Value = "Rota";
-        //    worksheet.Cells[1, 2].Value = "Gece Gün";
-        //    worksheet.Cells[1, 3].Value = "Fiyatı";
+        public IActionResult GetFile()
 
-        //    var values = destinationService.TGetList();
-        //    int k = 2;
-        //    for (int i = 0; i < values.Count; i++)
-        //    {
-        //        worksheet.Cells[k, 1].Value = values[i].City;
-        //        worksheet.Cells[k, 2].Value = values[i].DayNight;
-        //        worksheet.Cells[k, 3].Value = values[i].Price;
-        //        k++;
-        //    }
-        //    var bytes = excel.GetAsByteArray();
-
-        //    return File(bytes, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "Rotalar.xlsx");
-        //}
+        {
+            return File(excelService.Excellist(DestinationList()), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "YeniExcel.xlsx");
+        }
 
         public List<Destination> DestinationList()
         {

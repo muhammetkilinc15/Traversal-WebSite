@@ -441,6 +441,10 @@
       "PackagePath": "staticwebassets\\PdfReport\\dosya2.pdf"
     },
     {
+      "Id": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\wwwroot\\PdfReport\\dosya3.pdf",
+      "PackagePath": "staticwebassets\\PdfReport\\dosya3.pdf"
+    },
+    {
       "Id": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\wwwroot\\Traversal-Liberty\\about.html",
       "PackagePath": "staticwebassets\\Traversal-Liberty\\about.html"
     },

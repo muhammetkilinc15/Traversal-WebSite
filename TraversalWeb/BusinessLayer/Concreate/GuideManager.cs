@@ -23,6 +23,11 @@ namespace BusinessLayer.Concreate
             guideDal.Add(entity);
         }
 
+        public void TChangeStatus(int id)
+        {
+           guideDal.ChangeStatus(id);
+        }
+
         public Guide TGetByID(int id)
         {
             return guideDal.GetByID(id);

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "krzinsSJCwvUKZXgilXyc/z6fwKO07cxRgoMi7OvVH0=",
+  "Hash": "TOD09Twvm9aYvgujBSjsGMLwTdvoc98v5HQ02SOl7ZM=",
   "Source": "TraversalWeb",
   "BasePath": "_content/TraversalWeb",
   "Mode": "Default",
@@ -3264,6 +3264,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\PdfReport\\dosya2.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\wwwroot\\PdfReport\\dosya3.pdf",
+      "SourceId": "TraversalWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\wwwroot\\",
+      "BasePath": "_content/TraversalWeb",
+      "RelativePath": "PdfReport/dosya3.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PdfReport\\dosya3.pdf"
     },
     {
       "Identity": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\wwwroot\\simple-404-template-master\\404.html",
