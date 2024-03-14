@@ -36,14 +36,25 @@ namespace TraversalWeb.Areas.Admin.Controllers
 			var values = JsonConvert.SerializeObject(p);
 			return Json(values);
 		}
-
-		public IActionResult DeleteCityDestination(Destination p)
+		[HttpPost]
+		public IActionResult DeleteCityDestination(int id)
 		{
-			_destinationService.TAdd(p);
-			var values = JsonConvert.SerializeObject(p);
-			return Json(values);
+			var value = _destinationService.TGetByID(id);
+			_destinationService.TRemove(value);
+			return NoContent();
 		}
 
+		[HttpPost]
+		public IActionResult UpdateCity(Destination p)
+		{
+			var value = _destinationService.TGetByID(p.DestinationID);
+			value.DestinationID = p.DestinationID;
+			value.City = p.City;
+			value.Price= p.Price;
+			_destinationService.TUpdate(value);
+			var jsonValue = JsonConvert.SerializeObject(p);
+			return Json(jsonValue);
+		}
 		[HttpGet]
 		public IActionResult GetByID(int id)
 		{

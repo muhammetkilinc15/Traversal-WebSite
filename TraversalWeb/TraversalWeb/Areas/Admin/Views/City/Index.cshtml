@@ -37,6 +37,7 @@
 
 </div>
 <hr />
+
 <div class="row mt-2">
 	<h6>ID 'ye göre getir</h6>
 	<div class="form-group mt-2">
@@ -47,6 +48,34 @@
 	</div>
 </div>
 
+<div class="row mt-2">
+	<h6>ID 'ye Silme İslemi</h6>
+	<div class="form-group mt-2">
+		<input type="text" placeholder="ID" class="form-control" id="deleteID">
+	</div>
+	<div class="form-group mt-2">
+		<button class="btn btn-outline-primary" onclick="Delete()">Sehri Sil</button>
+	</div>
+</div>
+
+<div class="row mt-2">
+	<h6>Güncelleme İslemi</h6>
+	<div class="form-group mt-2">
+		<input type="text" placeholder="ID" class="form-control" id="txtUptID">
+	</div>
+	<div class="form-group mt-2">
+		<input type="text" placeholder="Şehir adı" class="form-control" id="txtCityName">
+	</div><div class="form-group mt-2">
+
+		<input type="text" placeholder="Fiyat" class="form-control" id="txtCityPrice">
+	</div>
+
+	<div class="form-group mt-2">
+		<button class="btn btn-outline-primary" onclick="Update()">Sehri Güncelle</button>
+	</div>
+</div>
+
+
 
 <script>
 
@@ -54,6 +83,41 @@
 		getList();
 
 	});
+
+	function Update() {
+		let destination = {
+			DestinationID: $("#txtUptID").val(),
+			City: $("#txtCityName").val(),
+			Price: $("#txtCityPrice").val()
+		}
+		$.ajax({
+			type:"post",
+			url: "/Admin/City/UpdateCity/",
+			data: destination,
+			success: function (func) {
+				getList();
+				alert("Güncelleme basarılı")
+			}
+
+
+		})
+	}
+
+	function Delete() {
+
+		let id = $("#deleteID").val();
+		$.ajax({
+			url: "/Admin/City/DeleteCityDestination/"+id,
+			type:"post",
+			contentType:"application/json",
+			dataType:"json",
+			success: function (func) {
+				getList();
+			}
+
+		})
+
+	}
 
 	function getDestination() {
 		let id = $("#desID").val()
@@ -64,6 +128,7 @@
 			type:"get",
 			url: "/Admin/City/GetByID/"+id,
 			success: function (func) {
+				let result = jQuery.parseJSON(func);
 				alert(func)
 			}
 		})
@@ -87,6 +152,7 @@
 
 				let result = jQuery.parseJSON(func);
 				alert("Şehir - rota başarılı şekilde eklendi")
+				getList();
 			}
 
 		})
@@ -101,6 +167,7 @@
 			success: function (func) {
 				var data = jQuery.parseJSON(func);
 				var myTablo = document.getElementById("cityResult");
+				myTablo.innerHTML = "";
 
 				for (let i = 0; i < data.length; i++) {
 					var tr1 = document.createElement("tr")
