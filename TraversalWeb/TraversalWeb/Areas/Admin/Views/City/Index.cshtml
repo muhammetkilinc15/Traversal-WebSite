@@ -1,0 +1,129 @@
+﻿@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Şehir Ülke İşlemleri</h1>
+<div class="row">
+	<div class="col-md-12">
+		<table class="table table-hover" id="cityResult">
+			<tr>
+
+				<th>Şehir Adı</th>
+				<th>Gün Gece</th>
+				<th>Fiyat</th>
+			</tr>
+		</table>
+	</div>
+</div>
+<hr />
+<div class="row mt-2">
+	<h6>Yeni Rota Ekleme</h6>
+	<div class="form-group mt-2">
+		<input type="text" placeholder="Şehir adı" class="form-control" id="txtcity">
+	</div>
+	<div class="form-group mt-2">
+		<input type="text" placeholder="Gece gün" class="form-control" id="txtDayNight">
+	</div>
+	<div class="form-group mt-2">
+		<input type="text" placeholder="Fiyat" class="form-control" id="txtPrice">
+	</div>
+	<div class="form-group mt-2">
+		<input type="text" placeholder="Kapasite" class="form-control" id="txtCapacity">
+	</div>
+	<div class="form-group mt-2">
+		<button class="btn btn-outline-primary" onclick="add()">Sehir Ekle</button>
+	</div>
+
+</div>
+<hr />
+<div class="row mt-2">
+	<h6>ID 'ye göre getir</h6>
+	<div class="form-group mt-2">
+		<input type="text" placeholder="ID" class="form-control" id="desID">
+	</div>
+	<div class="form-group mt-2">
+		<button class="btn btn-outline-primary" onclick="getDestination()">Sehri Getir</button>
+	</div>
+</div>
+
+
+<script>
+
+	$(document).ready(function () {
+		getList();
+
+	});
+
+	function getDestination() {
+		let id = $("#desID").val()
+
+		$.ajax({
+			contentType:"application/json",
+			dataType:"json",
+			type:"get",
+			url: "/Admin/City/GetByID/"+id,
+			success: function (func) {
+				alert(func)
+			}
+		})
+
+	}
+
+
+	function add() {
+		let destination =
+		{
+			City: $("#txtcity").val(),
+			DayNight: $("#txtDayNight").val(),
+			Price: $("#txtPrice").val(),
+			Capacity: $("#txtCapacity").val()
+		}
+		$.ajax({
+			url: "/Admin/City/AddCityDestination/",
+			type: "post",
+			data: destination,
+			success: function (func) {
+
+				let result = jQuery.parseJSON(func);
+				alert("Şehir - rota başarılı şekilde eklendi")
+			}
+
+		})
+	}
+
+	function getList() {
+		$.ajax({
+			contentType: "application/json",
+			dataType: "json",
+			type: "get",
+			url: "/Admin/City/CityList/",
+			success: function (func) {
+				var data = jQuery.parseJSON(func);
+				var myTablo = document.getElementById("cityResult");
+
+				for (let i = 0; i < data.length; i++) {
+					var tr1 = document.createElement("tr")
+
+					var td2 = document.createElement("td")
+					var td3 = document.createElement("td")
+					var td4 = document.createElement("td")
+
+
+					td2.appendChild(document.createTextNode(data[i].City))
+					td3.appendChild(document.createTextNode(data[i].DayNight))
+					td4.appendChild(document.createTextNode(data[i].Price))
+
+
+					tr1.appendChild(td2)
+					tr1.appendChild(td3)
+					tr1.appendChild(td4)
+
+					myTablo.appendChild(tr1)
+				}
+
+			}
+		});
+	}
+</script>
+

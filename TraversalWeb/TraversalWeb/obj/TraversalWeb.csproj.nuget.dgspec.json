@@ -376,6 +376,10 @@
               "target": "Package",
               "version": "[11.3.0, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -406,7 +410,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.2, )"
             },
             "Serilog.Extensions.Logging.File": {
               "target": "Package",
