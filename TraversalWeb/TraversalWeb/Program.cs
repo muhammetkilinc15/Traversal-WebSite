@@ -1,10 +1,14 @@
 using BusinessLayer.Abstract;
 using BusinessLayer.Concreate;
 using BusinessLayer.Container;
+using BusinessLayer.ValidationRules;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.Concreate;
 using DataAccessLayer.EntityFramework;
+using DTOLayer.DTOs.AnnouncementDTOs;
 using EntityLayer.Concreate;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
@@ -30,7 +34,15 @@ builder.Services.AddIdentity<AppUser, AppRole>()
 // buraya kadar kýsým
 
 
-builder.Services.AddControllersWithViews();
+// ---->>>>>>  Automapper için gereklli servis eklendi 
+builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.CustomerValidator();
+
+// <<<<<<-------
+
+
+// >>>>>>>>>>>>>>>>>>>> sonuna addFluentValidation() ekledik
+builder.Services.AddControllersWithViews().AddFluentValidation();
 
 // ====>  Authorization için gerekli kýsým
 builder.Services.AddMvc(config =>

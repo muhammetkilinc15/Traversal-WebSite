@@ -1,8 +1,11 @@
 ﻿using BusinessLayer.Abstract;
 using BusinessLayer.Concreate;
+using BusinessLayer.ValidationRules;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.Concreate;
 using DataAccessLayer.EntityFramework;
+using DTOLayer.DTOs.AnnouncementDTOs;
+using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -35,6 +38,18 @@ namespace BusinessLayer.Container
 
             Services.AddScoped<IExcelService, ExcellManager>();
             Services.AddScoped<IPdfService, PdfManager>();
+
+			Services.AddScoped<IContactUsDal, EfContactUsDal>();
+			Services.AddScoped<IContactUsService, ContactUsManager>();
+
+            Services.AddScoped<IAnnouncementDal, EfAnnouncementDal>();
+            Services.AddScoped<IAnnouncementService, AnnouncementManager>();
         }
-	}
+
+		public static void CustomerValidator(this IServiceCollection services)
+		{
+            services.AddTransient<IValidator<AnnouncementAddDTO>, AnnouncementValidator>();
+
+        }
+    }
 }
