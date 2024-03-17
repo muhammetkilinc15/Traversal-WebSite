@@ -12,8 +12,9 @@ namespace TraversalWeb.Mapping.AutoMapperProfile
         {
             // Eşleştirmeler buraya gelir
             CreateMap<AnnouncementListDTO, Announcement>().ReverseMap();
-
             CreateMap<AnnouncementAddDTO, Announcement>().ReverseMap();
+            CreateMap<AnnouncementUpdateDTO, Announcement>().ReverseMap();
+
 
             CreateMap<CityAddDTO, Destination>().ReverseMap();
 
