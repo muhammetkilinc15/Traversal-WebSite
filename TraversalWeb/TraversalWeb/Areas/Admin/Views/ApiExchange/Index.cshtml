@@ -1,0 +1,24 @@
+﻿@model IEnumerable<BookingChangeViewModel2.Exchange_Rates>
+@{
+    ViewData["Title"] = "IndexAsync";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Api Booking Kur Bilgileri</h1>
+<br />
+<table class="table table-hover">
+    <tr>
+        <th>Kur adı</th>
+        <th>Kur Oranı</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+       <tr>
+           <td>@item.currency</td>
+           <td>@item.exchange_rate_buy</td>
+       </tr>
+    }
+</table>
+
+
+

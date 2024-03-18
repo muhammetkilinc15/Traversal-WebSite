@@ -25,6 +25,8 @@ builder.Services.AddLogging(X =>
 });
 
 
+// <<<<<<<<<<<< API ye baðlanmak için
+builder.Services.AddHttpClient();
 
 
 // Burada Identity Yapýlandýrmasýsýný yapýyoruz

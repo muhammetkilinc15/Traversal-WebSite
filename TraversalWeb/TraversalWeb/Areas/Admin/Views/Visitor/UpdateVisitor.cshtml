@@ -1,0 +1,43 @@
+﻿@model VisitorViewModel
+@{
+    ViewData["Title"] = "UpdateVisitor";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="row">
+	<div class="col-xl">
+		<div class="card mb-4">
+			<div class="card-body">
+				<form method="post">
+					@Html.HiddenFor(x=>x.VisitorID)
+					<div class="mb-3">
+						<label class="form-label" for="basic-default-fullname">İsim</label>
+						<input type="text" asp-for="@Model.Name" value="@Model.Name" class="form-control" id="basic-default-fullname" placeholder="Şehir giriniz" />
+					</div>
+
+					<div class="mb-3">
+						<label class="form-label" for="basic-default-company">Soyisim</label>
+						<input type="text" asp-for="@Model.Surname" value="@Model.Surname" class="form-control" id="basic-default-company" placeholder="Gün Gece" />
+					</div>
+
+					<div class="mb-3">
+						<label class="form-label" for="basic-default-company">Şehir</label>
+						<input type="text" asp-for="@Model.City" value="@Model.City" class="form-control" id="basic-default-company" placeholder="Ana Görsel" />
+					</div>
+
+					<div class="mb-3">
+						<label class="form-label" for="basic-default-company">Ülke</label>
+						<input type="text" asp-for="@Model.Country" value="@Model.Country" class="form-control" id="basic-default-company" placeholder="Kapasite" />
+					</div>
+
+					<div class="mb-3">
+						<label class="form-label" for="basic-default-company">Mail</label>
+						<input type="email" asp-for="@Model.Mail" value="@Model.Mail" class="form-control" id="basic-default-company" placeholder="Kapak Görsel" />
+					</div>
+					<button type="submit" class="btn btn-primary">Güncelle</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

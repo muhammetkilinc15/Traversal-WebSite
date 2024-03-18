@@ -1,0 +1,32 @@
+﻿@model List<VisitorViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Index</h1>
+<table class="table table-hover">
+    <tr>
+        <th>#</th>
+        <th>Ad Soyad</th>
+        <th>Şehir</th>
+        <th>Ülke</th>
+        <th>Mail</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.VisitorID</td>
+            <td>@item.Name @item.Surname</td>
+            <td>@item.City</td>
+            <td>@item.Country</td>
+            <td>@item.Mail</td>
+            <td><a href="/Admin/Visitor/DeleteVisitor/@item.VisitorID" class="btn btn-outline-danger">Sil</a></td>
+            <td><a href="/Admin/Visitor/UpdateVisitor/@item.VisitorID" class="btn btn-outline-warning">Güncelle</a></td>
+        </tr>
+    }
+</table>
+
+<a href="/Admin/Visitor/AddVisitor/" class="btn btn-outline-info">Yeni Ziyaretçi Ekle</a>
