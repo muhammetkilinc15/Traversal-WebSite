@@ -12,16 +12,24 @@ using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using TraversalWeb.CQRS.Handlers.DestinationHandlers;
 using TraversalWeb.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+// ----->>>> CQRS için 
+builder.Services.AddScoped<GetAllDestinationQueryHandler>();
+builder.Services.AddScoped<GetDestinationIdQeueryHandler>();
+builder.Services.AddScoped<CreateDestinationCommandHandler>();
+builder.Services.AddScoped<RemoveDestinationCommandHandler>();
+builder.Services.AddScoped<UpdateDestinationHandler>();
 
+// <<<<<<------------
 
 builder.Services.AddLogging(X =>
 {
-	X.ClearProviders();
-	X.SetMinimumLevel(LogLevel.Debug);
-	X.AddDebug();
+    X.ClearProviders();
+    X.SetMinimumLevel(LogLevel.Debug);
+    X.AddDebug();
 });
 
 
@@ -32,7 +40,7 @@ builder.Services.AddHttpClient();
 // Burada Identity Yapýlandýrmasýsýný yapýyoruz
 builder.Services.AddDbContext<Context>();                                           // Custom ýdentity erroru kullandýk(Hatalarý Türkçe yaptýk)
 builder.Services.AddIdentity<AppUser, AppRole>()
-	.AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>();
+    .AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>();
 // buraya kadar kýsým
 
 
@@ -49,10 +57,10 @@ builder.Services.AddControllersWithViews().AddFluentValidation();
 // ====>  Authorization için gerekli kýsým
 builder.Services.AddMvc(config =>
 {
-	var policy = new AuthorizationPolicyBuilder()
-	.RequireAuthenticatedUser()
-	.Build();
-	config.Filters.Add(new AuthorizeFilter());
+    var policy = new AuthorizationPolicyBuilder()
+    .RequireAuthenticatedUser()
+    .Build();
+    config.Filters.Add(new AuthorizeFilter());
 });
 
 
@@ -75,9 +83,9 @@ loggerFactory.AddFile($"{path}\\Logs\\Log1.txt");
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-	app.UseExceptionHandler("/Home/Error");
-	// The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-	app.UseHsts();
+    app.UseExceptionHandler("/Home/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
 }
 
 
@@ -86,7 +94,7 @@ if (!app.Environment.IsDevelopment())
 
 
 // Hata alýndýðý zaman istediðimiz sayfalara yönlendireðiz
-app.UseStatusCodePagesWithReExecute("/ErrorPage/Error404/","?code{0}");
+app.UseStatusCodePagesWithReExecute("/ErrorPage/Error404/", "?code{0}");
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
@@ -97,18 +105,18 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-	name: "default",
-	pattern: "{controller=Login}/{action=SingIn}/{id?}");
+    name: "default",
+    pattern: "{controller=Login}/{action=SingIn}/{id?}");
 
 app.MapControllerRoute(
-	  name: "areas",
-	  pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
-	);
+      name: "areas",
+      pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+    );
 
 
 app.MapControllerRoute(
-	  name: "areas",
-	  pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
-	);
+      name: "areas",
+      pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+    );
 
 app.Run();
