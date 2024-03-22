@@ -8,9 +8,10 @@ Projenin Genel Genel Amacı:
     <li>Partial View, View Componenti</li>
     <li>Web Api Apilerin ne işe yaradığını</li>
    <li>Signal R Teknolojisini</li>
+     <li>MediaR kütüphanesi</li>
    <li>N katmanlı mimari de Katmanların ne işe yaradığını</li>
-    <li>
-Identit kütüphanesinin ne işe yaradığını ve nasıl kullanıldığını</li>
+     <li>Repository ve CQRS desing patternleri anlamak</li>
+    <li>Identit kütüphanesinin ne işe yaradığını ve nasıl kullanıldığını</li>
     <li>Web token ile güvenliği sağlamayı öğrenmektir</li>
 
 </ol>
