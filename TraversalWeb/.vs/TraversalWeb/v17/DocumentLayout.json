@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\areas\\admin\\views\\destinationcqrs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\views\\destinationcqrs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DCF3ABD-2CB4-456E-8658-CAE06878DFF6}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\businesslayer\\container\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DCF3ABD-2CB4-456E-8658-CAE06878DFF6}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\container\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\areas\\admin\\controllers\\destinationcqrscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\controllers\\destinationcqrscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\cqrs\\commands\\destinationcommands\\removedestinationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\cqrs\\commands\\destinationcommands\\removedestinationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DCF3ABD-2CB4-456E-8658-CAE06878DFF6}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\businesslayer\\concreate\\unitofworkconcreate\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DCF3ABD-2CB4-456E-8658-CAE06878DFF6}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\concreate\\unitofworkconcreate\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Program.cs",
-              "RelativeDocumentMoniker": "TraversalWeb\\Program.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Program.cs",
-              "RelativeToolTip": "TraversalWeb\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAzAAAA",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T11:37:49.093Z",
+              "WhenOpened": "2024-03-27T17:41:43.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\DestinationCQRS\\Index.cshtml",
-              "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Views\\DestinationCQRS\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Views\\DestinationCQRS\\Index.cshtml",
-              "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Views\\DestinationCQRS\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-22T11:29:58.753Z",
+              "DocumentIndex": 1,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\BusinessLayer\\Container\\Extensions.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Container\\Extensions.cs",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\BusinessLayer\\Container\\Extensions.cs",
+              "RelativeToolTip": "BusinessLayer\\Container\\Extensions.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAQwDMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:39:39.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DestinationCQRSController.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Controllers\\DestinationCQRSController.cs",
-              "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Controllers\\DestinationCQRSController.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Controllers\\DestinationCQRSController.cs",
-              "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Controllers\\DestinationCQRSController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAMwCgAAAASAAAA",
+              "Title": "AccountManager.cs",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\BusinessLayer\\Concreate\\UnitOfWorkConcreate\\AccountManager.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Concreate\\UnitOfWorkConcreate\\AccountManager.cs",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\BusinessLayer\\Concreate\\UnitOfWorkConcreate\\AccountManager.cs",
+              "RelativeToolTip": "BusinessLayer\\Concreate\\UnitOfWorkConcreate\\AccountManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T10:59:40.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RemoveDestinationCommand.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\CQRS\\Commands\\DestinationCommands\\RemoveDestinationCommand.cs",
-              "RelativeDocumentMoniker": "TraversalWeb\\CQRS\\Commands\\DestinationCommands\\RemoveDestinationCommand.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\CQRS\\Commands\\DestinationCommands\\RemoveDestinationCommand.cs",
-              "RelativeToolTip": "TraversalWeb\\CQRS\\Commands\\DestinationCommands\\RemoveDestinationCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T11:28:45.219Z",
+              "WhenOpened": "2024-03-27T17:37:21.272Z",
               "EditorCaption": ""
             }
           ]

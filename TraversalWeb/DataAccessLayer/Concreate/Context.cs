@@ -32,6 +32,7 @@ namespace DataAccessLayer.Concreate
         public DbSet<Reservation> Reservations { get; set; }
         public DbSet<ReservationStatus> ReservationStatuses { get; set; }
         public DbSet<Announcement> Announcements { get; set; }
+        public DbSet<Account> Accounts { get; set; }
     
     
     }

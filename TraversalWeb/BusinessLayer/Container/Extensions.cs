@@ -1,5 +1,7 @@
 ﻿using BusinessLayer.Abstract;
+using BusinessLayer.Abstract.AbstractUnitOfWork;
 using BusinessLayer.Concreate;
+using BusinessLayer.Concreate.UnitOfWorkConcreate;
 using BusinessLayer.ValidationRules;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.Concreate;
@@ -44,7 +46,14 @@ namespace BusinessLayer.Container
 
             Services.AddScoped<IAnnouncementDal, EfAnnouncementDal>();
             Services.AddScoped<IAnnouncementService, AnnouncementManager>();
-        }
+
+
+			Services.AddScoped<IAccountService,AccountManager>();
+			Services.AddScoped<IAccountDal, EfAccountDal>();
+
+		}
+
+
 
 		public static void CustomerValidator(this IServiceCollection services)
 		{

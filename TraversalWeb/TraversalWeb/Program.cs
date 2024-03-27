@@ -9,6 +9,7 @@ using DTOLayer.DTOs.AnnouncementDTOs;
 using EntityLayer.Concreate;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using MediatR;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
@@ -23,6 +24,7 @@ builder.Services.AddScoped<CreateDestinationCommandHandler>();
 builder.Services.AddScoped<RemoveDestinationCommandHandler>();
 builder.Services.AddScoped<UpdateDestinationHandler>();
 
+builder.Services.AddMediatR(typeof(Program));
 // <<<<<<------------
 
 builder.Services.AddLogging(X =>

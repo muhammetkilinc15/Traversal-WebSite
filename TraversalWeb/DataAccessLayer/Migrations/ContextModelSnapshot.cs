@@ -81,6 +81,26 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("About2s");
                 });
 
+            modelBuilder.Entity("EntityLayer.Concreate.Account", b =>
+                {
+                    b.Property<int>("AccountID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AccountID"));
+
+                    b.Property<decimal>("Balance")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("AccountID");
+
+                    b.ToTable("Accounts");
+                });
+
             modelBuilder.Entity("EntityLayer.Concreate.Announcement", b =>
                 {
                     b.Property<int>("AnnouncementID")
