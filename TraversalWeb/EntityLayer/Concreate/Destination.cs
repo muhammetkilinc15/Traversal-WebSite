@@ -24,6 +24,8 @@ namespace EntityLayer.Concreate
         public bool Status { get; set; }
 
         // İlişki
+        public int? GuideId { get; set; }
+        public Guide Guide { get; set; }
 
         public List<Comment>? Comments { get; set; }
         public List<Reservation>? Reservations { get; set; }

@@ -11,6 +11,7 @@ namespace BusinessLayer.Abstract.AbstractUnitOfWork
         void TAdd(T entity);
         void TUpdate(T entity);
         void TMultiUpdate(List<T> entities);
+        T TGetByID(int id); 
     }
 
 }

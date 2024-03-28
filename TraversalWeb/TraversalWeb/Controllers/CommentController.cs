@@ -1,6 +1,7 @@
 ﻿using BusinessLayer.Concreate;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concreate;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace TraversalWeb.Controllers
@@ -8,9 +9,9 @@ namespace TraversalWeb.Controllers
     public class CommentController : Controller
     {
         private CommentManager commentManager = new CommentManager(new EfCommentDal());
+    
 
-
-        public PartialViewResult Index(int id=6)
+		public PartialViewResult Index(int id)
         {
 			var values = commentManager.TGetListByDestination(id);
 			ViewBag.commentNumber = values.Count();
@@ -18,14 +19,16 @@ namespace TraversalWeb.Controllers
         }
 
         [HttpGet]
-        public IActionResult AddComment(Comment comment ,int id=6 )
-        {            
-            Comment c = new Comment();
-            return PartialView(c);
+        public PartialViewResult AddComment()
+        {   
+
+			return PartialView();
         }
         [HttpPost]
-        public IActionResult AddComment(Comment p)
-        {    
+        public IActionResult AddCommenT(Comment p)
+        {
+           
+            p.CommentUser = "sd";
             p.CommentDate = DateTime.Now;
             p.Status = true;
             commentManager.TAdd(p);

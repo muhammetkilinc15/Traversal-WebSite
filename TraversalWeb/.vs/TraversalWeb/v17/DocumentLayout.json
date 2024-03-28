@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DCF3ABD-2CB4-456E-8658-CAE06878DFF6}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\businesslayer\\container\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DCF3ABD-2CB4-456E-8658-CAE06878DFF6}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\container\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DCF3ABD-2CB4-456E-8658-CAE06878DFF6}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\businesslayer\\concreate\\unitofworkconcreate\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DCF3ABD-2CB4-456E-8658-CAE06878DFF6}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\concreate\\unitofworkconcreate\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|c:\\users\\mami\\documents\\github\\traversal-website\\traversalweb\\traversalweb\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85260DD0-8BB8-4C22-871D-56B2F2FB6F11}|TraversalWeb\\TraversalWeb.csproj|solutionrelative:traversalweb\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "TraversalWeb\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "TraversalWeb\\Areas\\Admin\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAASAAAA",
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "TraversalWeb\\Controllers\\DefaultController.cs",
+              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\TraversalWeb\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "TraversalWeb\\Controllers\\DefaultController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T17:41:43.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Extensions.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\BusinessLayer\\Container\\Extensions.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Container\\Extensions.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\BusinessLayer\\Container\\Extensions.cs",
-              "RelativeToolTip": "BusinessLayer\\Container\\Extensions.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAQwDMAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T17:39:39.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccountManager.cs",
-              "DocumentMoniker": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\BusinessLayer\\Concreate\\UnitOfWorkConcreate\\AccountManager.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Concreate\\UnitOfWorkConcreate\\AccountManager.cs",
-              "ToolTip": "C:\\Users\\mami\\Documents\\GitHub\\Traversal-WebSite\\TraversalWeb\\BusinessLayer\\Concreate\\UnitOfWorkConcreate\\AccountManager.cs",
-              "RelativeToolTip": "BusinessLayer\\Concreate\\UnitOfWorkConcreate\\AccountManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T17:37:21.272Z",
+              "WhenOpened": "2024-03-28T18:44:25.838Z",
               "EditorCaption": ""
             }
           ]

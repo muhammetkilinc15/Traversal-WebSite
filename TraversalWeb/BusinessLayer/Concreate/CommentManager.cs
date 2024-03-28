@@ -43,6 +43,11 @@ namespace BusinessLayer.Concreate
 			return _commentDal.TGetListWİthDestination();
 		}
 
+		public List<Comment> TGetListWithByDestinationAndUser(int id)
+		{
+			return _commentDal.TGetListWİthDestinationAndUser(id);
+		}
+
 		public void TRemove(Comment entity)
 		{
 			_commentDal.Delete(entity);

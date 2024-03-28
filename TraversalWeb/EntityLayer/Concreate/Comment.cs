@@ -17,5 +17,8 @@ namespace EntityLayer.Concreate
         public bool Status { get; set; }
         public int DestinationID { get; set; }
         public virtual Destination Destination { get; set; }
+
+        public int AppUserId { get; set; }
+        public virtual AppUser AppUser { get; set; }
     }
 }

@@ -23,6 +23,11 @@ namespace DataAccessLayer.Repository
             
         }
 
+        public T GetById(int id)
+        {
+            return _context.Set<T>().Find(id);
+        }
+
         public void MultiUpdate(List<T> entities)
         {
             _context.UpdateRange(entities);

@@ -6,7 +6,10 @@ using BusinessLayer.ValidationRules;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.Concreate;
 using DataAccessLayer.EntityFramework;
+using DataAccessLayer.Repository;
+using DataAccessLayer.UnitOfWork;
 using DTOLayer.DTOs.AnnouncementDTOs;
+using EntityLayer.Concreate;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -51,6 +54,7 @@ namespace BusinessLayer.Container
 			Services.AddScoped<IAccountService,AccountManager>();
 			Services.AddScoped<IAccountDal, EfAccountDal>();
 
+			Services.AddScoped<IUnitOfWorkDal,UnitOfWorkDal>();
 		}
 
 

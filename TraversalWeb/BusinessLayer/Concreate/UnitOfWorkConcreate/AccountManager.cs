@@ -27,6 +27,12 @@ namespace BusinessLayer.Concreate.UnitOfWorkConcreate
             unitOfWorkDal.Save();
         }
 
+        public Account TGetByID(int id)
+        {
+           return accountDal.GetById(id);
+            
+        }
+
         public void TMultiUpdate(List<Account> entities)
         {
             accountDal.MultiUpdate(entities);

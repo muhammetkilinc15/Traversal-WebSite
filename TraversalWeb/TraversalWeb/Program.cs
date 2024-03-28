@@ -24,6 +24,7 @@ builder.Services.AddScoped<CreateDestinationCommandHandler>();
 builder.Services.AddScoped<RemoveDestinationCommandHandler>();
 builder.Services.AddScoped<UpdateDestinationHandler>();
 
+
 builder.Services.AddMediatR(typeof(Program));
 // <<<<<<------------
 
