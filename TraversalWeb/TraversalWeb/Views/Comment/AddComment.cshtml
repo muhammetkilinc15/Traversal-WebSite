@@ -12,8 +12,6 @@
 
 			<input type="hidden" asp-for="DestinationID" value="@ViewBag.destinationID" />
 			<input type="hidden" asp-for="AppUserId" value="@ViewBag.appUserID" />
-			<h3>@Model.AppUserId</h3>
-			<h3>@Model.DestinationID</h3>
 			<div class="form-group">
 				<textarea  class="form-control" placeholder="Yorumunuz*" asp-for="@Model.Description" required  spellcheck="false"></textarea>
 			</div>

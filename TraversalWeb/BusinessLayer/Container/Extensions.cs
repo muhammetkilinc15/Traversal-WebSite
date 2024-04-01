@@ -35,7 +35,10 @@ namespace BusinessLayer.Container
 			Services.AddScoped<ICommentDal, EfCommentDal>();
 			Services.AddScoped<ICommentService, CommentManager>();
 
-			Services.AddScoped<IAppUserDal, EfAppUserDal>();
+            Services.AddScoped<IContactUsDal, EfContactUsDal>();
+            Services.AddScoped<IContactUsService, ContactUsManager>();
+
+            Services.AddScoped<IAppUserDal, EfAppUserDal>();
 			Services.AddScoped<IAppUserService, AppUserManager>();
 
 			Services.AddScoped<IGuideDal, EfGuideDal>();
